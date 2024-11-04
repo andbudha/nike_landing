@@ -13,7 +13,7 @@ const ShoeCard = ({ shoe, changeBigShoeImage, bigShoeImg }: ShoeCardProps) => {
   };
   return (
     <div
-      className={`border-2 rounded-x1 ${
+      className={`border-2 rounded-xl ${
         bigShoeImg === shoe.bigShoe
           ? 'border-coral-red rounded-xl'
           : 'border-transparent'

@@ -1,12 +1,12 @@
-import headerLogo from '../assets/images/header-logo.svg';
+import headerLogo from '../assets/images/header-logo.png';
 import hamburger from '../assets/icons/hamburger.svg';
 import { navLinks } from '../constants/index';
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-8 absolute z-10 w-full ">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
-          <img src={headerLogo} alt="logo" width={130} height={29} />
+          <img src={headerLogo} alt="logo" width={90} height={20} />
         </a>
 
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">

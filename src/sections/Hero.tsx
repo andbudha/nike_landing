@@ -8,7 +8,6 @@ import { useState } from 'react';
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState<string>(bigShoeOne);
   const changeBigShoeImage = (selectedShoeImg: string) => {
-    console.log(selectedShoeImg);
     setBigShoeImg(selectedShoeImg);
   };
   return (
